@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/UserAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/gonggaoAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/guahaoAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/keshiAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/yiyuanAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/action/zhuanjiaAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/model/TZhuanjia.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/service/loginService.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

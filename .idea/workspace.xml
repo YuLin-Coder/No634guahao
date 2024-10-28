@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="guahao:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2099efa7-3f2b-4c7a-8b40-42f2e377ad82" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GPY3UvfPC4PNi5ttOOfeGXhosg" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="guahao:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/guahao" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_guahao" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="guahao:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19706242" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2099efa7-3f2b-4c7a-8b40-42f2e377ad82" name="Default Changelist" comment="" />
+      <created>1666291486765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666291486765</updated>
+      <workItem from="1666291492141" duration="423000" />
+      <workItem from="1669431922203" duration="1484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="514" y="231" key="#Project_Structure" timestamp="1666291600218">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="514" y="231" key="#Project_Structure/0.0.1707.1027@0.0.1707.1027" timestamp="1666291600218" />
+    <state x="446" y="172" key="#Tomcat_Server" timestamp="1669431979295">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="446" y="172" key="#Tomcat_Server/0.0.1707.1027@0.0.1707.1027" timestamp="1669431979295" />
+    <state x="309" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1669431982139">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="309" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1669431982139" />
+    <state x="643" y="420" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1666291520641">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="643" y="420" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1666291520641" />
+    <state x="536" y="254" key="FileChooserDialogImpl" timestamp="1669432151924">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="536" y="254" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1669432151924" />
+    <state width="1311" height="351" key="GridCell.Tab.0.bottom" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.0.center" timestamp="1669434105468">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105468" />
+    <state width="1311" height="351" key="GridCell.Tab.0.left" timestamp="1669434105468">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105468" />
+    <state width="1311" height="351" key="GridCell.Tab.0.right" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.1.bottom" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.1.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.1.center" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.1.center/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.1.left" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.1.left/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.1.right" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.1.right/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.2.bottom" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.2.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.2.center" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.2.center/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.2.left" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.2.left/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="351" key="GridCell.Tab.2.right" timestamp="1669434105469">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="351" key="GridCell.Tab.2.right/0.0.1707.1027@0.0.1707.1027" timestamp="1669434105469" />
+    <state width="1311" height="496" key="GridCell.Tab.3.bottom" timestamp="1666291917605">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="496" key="GridCell.Tab.3.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1666291917605" />
+    <state width="1311" height="496" key="GridCell.Tab.3.center" timestamp="1666291917605">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="496" key="GridCell.Tab.3.center/0.0.1707.1027@0.0.1707.1027" timestamp="1666291917605" />
+    <state width="1311" height="496" key="GridCell.Tab.3.left" timestamp="1666291917605">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="496" key="GridCell.Tab.3.left/0.0.1707.1027@0.0.1707.1027" timestamp="1666291917605" />
+    <state width="1311" height="496" key="GridCell.Tab.3.right" timestamp="1666291917605">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1311" height="496" key="GridCell.Tab.3.right/0.0.1707.1027@0.0.1707.1027" timestamp="1666291917605" />
+    <state x="334" y="88" key="SettingsEditor" timestamp="1669432154979">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="334" y="88" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1669432154979" />
+    <state x="534" y="246" width="638" height="534" key="find.popup" timestamp="1669433654395">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="534" y="246" width="638" height="534" key="find.popup/0.0.1707.1027@0.0.1707.1027" timestamp="1669433654395" />
+  </component>
+</project>

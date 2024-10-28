@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <package name="liu" extends="struts-default">
+        <global-results>
+            <result name="succeed">/common/succeed.jsp</result>
+            <result name="msg">/common/msg.jsp</result>
+        </global-results>
+        
+        <action name="upload" class="com.util.upload" method="upload">
+             <result name="success">/upload/upload_re.jsp</result>
+        </action>
+        
+        <action name="index" class="indexAction" method="index">
+            <result name="success">/qiantai/index.jsp</result>
+        </action>
+        
+        
+        <action name="gonggaoAdd" class="gonggaoAction" method="gonggaoAdd">
+        </action>
+        <action name="gonggaoDel" class="gonggaoAction" method="gonggaoDel">
+        </action>
+        <action name="gonggaoMana" class="gonggaoAction" method="gonggaoMana">
+            <result>/admin/gonggao/gonggaoMana.jsp</result>
+        </action>
+        <action name="gonggaoDetailHou" class="gonggaoAction" method="gonggaoDetailHou">
+            <result>/admin/gonggao/gonggaoDetailHou.jsp</result>
+        </action>
+        <action name="gonggaoAll" class="gonggaoAction" method="gonggaoAll">
+            <result>/qiantai/gonggao/gonggaoAll.jsp</result>
+        </action>
+        <action name="gonggaoDetailQian" class="gonggaoAction" method="gonggaoDetailQian">
+            <result>/qiantai/gonggao/gonggaoDetailQian.jsp</result>
+        </action>
+        
+        
+        
+        <action name="userReg" class="userAction" method="userReg">
+        </action>
+        <action name="userLogin" class="userAction" method="userLogin">
+        </action>
+        <action name="userLogout" class="userAction" method="userLogout">
+        </action>
+        <action name="userEdit" class="userAction" method="userEdit">
+        </action>
+        <action name="userMana" class="userAction" method="userMana">
+             <result name="success">/admin/user/userMana.jsp</result>
+        </action>
+        <action name="userDel" class="userAction" method="userDel">
+        </action>
+        
+        
+        
+        <action name="yiyuanAdd" class="yiyuanAction" method="yiyuanAdd">
+        </action>
+        <action name="yiyuanMana" class="yiyuanAction" method="yiyuanMana">
+            <result name="success">/admin/yiyuan/yiyuanMana.jsp</result>
+        </action>
+        <action name="yiyuanDel" class="yiyuanAction" method="yiyuanDel">
+        </action>
+        <action name="yiyuanAll" class="yiyuanAction" method="yiyuanAll">
+            <result name="success">/qiantai/yiyuan/yiyuanAll.jsp</result>
+        </action>
+        
+        
+        
+        <action name="keshiAdd" class="keshiAction" method="keshiAdd">
+        </action>
+        <action name="keshiMana" class="keshiAction" method="keshiMana">
+            <result name="success">/admin/keshi/keshiMana.jsp</result>
+        </action>
+        <action name="keshiDel" class="keshiAction" method="keshiDel">
+        </action>
+        
+        
+        
+        
+        <action name="zhuanjiaAdd" class="zhuanjiaAction" method="zhuanjiaAdd">
+        </action>
+        <action name="zhuanjiaDel" class="zhuanjiaAction" method="zhuanjiaDel">
+        </action>
+        <action name="zhuanjiaMana" class="zhuanjiaAction" method="zhuanjiaMana">
+            <result>/admin/zhuanjia/zhuanjiaMana.jsp</result>
+        </action>
+        <action name="zhuanjiaAllByYiyuan" class="zhuanjiaAction" method="zhuanjiaAllByYiyuan">
+            <result>/qiantai/zhuanjia/zhuanjiaAllByYiyuan.jsp</result>
+        </action>
+        <action name="zhuanjiaDetailQian" class="zhuanjiaAction" method="zhuanjiaDetailQian">
+            <result>/qiantai/zhuanjia/zhuanjiaDetailQian.jsp</result>
+        </action>
+        <action name="zhuanjiaRes" class="zhuanjiaAction" method="zhuanjiaRes">
+            <result>/qiantai/zhuanjia/zhuanjiaRes.jsp</result>
+        </action>
+        
+        
+        
+        
+        
+        <action name="guahaoAdd" class="guahaoAction" method="guahaoAdd">
+        </action>
+        <action name="guahaoDel" class="guahaoAction" method="guahaoDel">
+        </action>
+        <action name="guahaoMana_user" class="guahaoAction" method="guahaoMana_user">
+            <result>/auser/guahao/guahaoMana_user.jsp</result>
+        </action>
+        <action name="guahaoMana_zhuanjia" class="guahaoAction" method="guahaoMana_zhuanjia">
+            <result>/admin/guahao/guahaoMana_zhuanjia.jsp</result>
+        </action>
+        
+        
+    </package>
+</struts>

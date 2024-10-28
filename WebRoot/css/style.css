@@ -1,0 +1,421 @@
+<style type="text/css">  <!--
+
+/* ---------- �������� �� ���ӵ���ͨ״̬ ---------- 
+A:link { 
+color: white; 
+TEXT-DECORATION: none;}      */   
+
+/* ---------- �������� �� �ѱ��������� ---------- 
+A:visited { 
+COLOR: white; 
+TEXT-DECORATION: none}      */  
+
+/* ---------- �������� �� ���ڻ״̬���� ---------- */
+A:active  { 
+COLOR: #3333ff; 
+TEXT-DECORATION: none}       
+
+/* ---------- �������� �� ָ���������� ---------- */
+A:hover   { 
+COLOR: #55AA55; 
+text-decoration: underline;}  
+
+/* ---------- ҳ����ʽ���� ---------- */
+body { 
+font-size: 10pt;                             /* �����С                  */
+font-family:Verdana;                         /* �������                  */
+scrollbar-face-color: #DEE3E7;               /* ������͹�����ֵ���ɫ      */
+scrollbar-highlight-color: #FFFFFF;          /* �������հײ��ֵ���ɫ      */
+scrollbar-shadow-color: #DEE3E7;             /* �����������Ӱ����ɫ      */
+scrollbar-3dlight-color: #D1D7DC;            /* ���������ߵ���ɫ          */
+scrollbar-arrow-color: #006699;              /* ���°�ť����Ǽ�ͷ����ɫ  */
+scrollbar-track-color: #EFEFEF;              /* �������ı�����ɫ          */
+scrollbar-darkshadow-color: #98AAB1;}        /* ����ǿ��Ӱ����ɫ          */
+
+/* ---------- ���ֱ���ָ��� ---------- */
+.hr1 {
+color: #EFEFEF;                              /* ����ɫ               */
+width: 99%;                                  /* �߿��               */
+text-align:left;                             /* ��λ��               */
+height:3px;  }                               /* �ߺ�ȣ��߶ȣ�       */           
+
+/* ---------- ���ֱ���ָ��� ---------- */
+.hr2 {
+color: #EFEFEF;                              /* ����ɫ               */
+width: 99%;                                  /* �߿��               */
+text-align:left;                             /* ��λ��               */
+height:3px;  }                               /* �ߺ�ȣ��߶ȣ�       */           
+
+/* ---------- ����ҳ�������� ---------- */
+.bodycolor { 
+BACKGROUND: #ffffff; }                                          /*  ������ʾ */
+                               
+/* ---------- ���������ҳ�������� ---------- */
+.bodycolor2 { 
+BACKGROUND: #ffffff; }                                          /*  ���� */
+
+/* ---------- ��屳����ʽ ---------- */
+.panel { 
+BACKGROUND: #F3F8FD;  }                                                                
+
+/* ---------- ѡ��״̬����ɫ ---------- */
+.menu_top_mouse1 { 
+background-color: #9BC9EA; }                            
+                                      
+/* ---------- δѡ������ɫ��ɫ ---------- */
+.menu_top_mouse2 { 
+background-color: #ffffff; }                              
+                                       
+/* ---------- ��������ɫ ---------- */
+.menu_top_mouse3 { 
+background-color: #eeeeee; }                                                                
+
+/* ---------- �˵�ѡ�ѡ��״̬����ɫ ---------- */
+.menu_operation_1 { 
+background-color: #B3D1FF; }       
+
+/* ---------- �˵�ѡ�δѡ������ɫ��ɫ ---------- */
+.menu_operation_2 { 
+background-color: ; }    
+
+/* ---------- �˵�ѡ���������ɫ ---------- */
+.menu_operation_3 { 
+background-color: #D9E8FF; }   
+
+/* ---------- ����ҳ�������� ---------- */
+.title1 { 
+font-size: 9pt;
+COLOR: #333666;}    
+
+/* ---------- ͨ�ô������ʽ ---------- */
+.big { 
+COLOR: #333666;
+font-size: 9pt;}                    
+
+/* ---------- ͨ�ô������ʽ����ɫ ---------- */
+.big1   { 
+COLOR: #333666;
+font-size: 9pt;               }                  
+
+/* ---------- ����ҳ���������� ---------- */
+.big2   { 
+COLOR: #333666;
+font-size: 9pt}                 
+
+/* ---------- ����ҳ���������� ---------- */
+.big3   { 
+font-size: 9pt;
+COLOR: #333666;
+FONT-WEIGHT: bold;}
+
+/* ---------- ����ҳ���������� ---------- */
+.big4   { 
+COLOR: #333666;}
+
+/* ---------- ��Ϣ����ʽ ---------- */
+.Message { 
+font-size:10pt;                                 /* �����С   */
+COLOR:#ff3300;                                  /* ����ɫ��ɫ */
+BACKGROUND:#F4F3EE; 
+margin:10px; 
+border:1px                                      /* ��Χ���߿�� */
+dotted #3399CC;                                 /* ��Χ������ɫ */
+font-weight:bold; 
+padding:9px; } 
+
+/* ---------- ״̬�� �м����� ---------- */
+.sb_center_text { 
+cursor:hand; 
+color:#000000; } 
+
+/* ---------- ״̬�� ������������ ---------- */
+.sb_online_text { 
+color: #0066CC;
+WIDTH: 100%; 
+text-decoration: none; } 
+
+/* ---------- ״̬�� ������������ ---------- */
+.sb_online_num { 
+border:0;
+width:24pt;
+height:12pt;
+color:#0066CC;
+cursor:hand;
+text-align:center;
+FONT-WEIGHT: bold;
+background-color:transparent; } 
+
+.small  { font-size: 9pt;}                   /* ͨ��С������ʽ        */
+.small1  { font-size: 9pt;               }   /* ͨ��С������ʽ����ɫ  */
+.verybig{ font-size: 24pt}                   /* �ش������ʽ          */ 
+
+/* ---------- ������ʽ���� ---------- */
+input.SmallButton{ 
+BORDER-RIGHT: #666666 1px solid; 
+BORDER-TOP: #666666 1px solid; 
+FONT-SIZE: 12px; 
+BACKGROUND-IMAGE: url("./images/button_bg.gif"); 
+BORDER-LEFT: #666666 1px solid; 
+BORDER-BOTTOM: #666666 1px solid; 
+HEIGHT: 20px; 
+BACKGROUND-COLOR: #ffffff }
+
+/* ---------- ������ʽ���� ---------- */
+input.BigButton{ 
+BORDER-RIGHT: #666666 1px solid; 
+BORDER-TOP: #666666 1px solid; 
+FONT-SIZE: 12px; 
+BACKGROUND-IMAGE: url("./images/button_bg.gif"); 
+BORDER-LEFT: #666666 1px solid; 
+BORDER-BOTTOM: #666666 1px solid; 
+HEIGHT: 20px; 
+BACKGROUND-COLOR: #ffffff }
+
+/* ----------С�������ʽ���� ---------- */
+input.SmallInput { 
+COLOR: #000066; 
+BACKGROUND: #F8F8F8; 
+border:1 solid black; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+input.SmallInput1{ 
+COLOR: #000066; 
+BACKGROUND: #F8F8F8; 
+border:1 solid black; 
+BORDER-RIGHT:0; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+/* ----------���������ʽ���� ---------- */
+input.BigInput   { 
+COLOR: #000066; 
+BACKGROUND: #F8F8F8; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+input.BigInput1   { 
+COLOR: #000000; 
+BACKGROUND: #EFF7FF; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: bold; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+input.BigInputMoney{
+COLOR:#000066; 
+BACKGROUND: #F8F8F8; 
+text-align: RIGHT; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+input.SmallStatic{ 
+COLOR: #000066; 
+BACKGROUND: #E0E0E0; 
+border:1 solid black; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+input.BigStatic  { 
+COLOR: #000066; 
+BACKGROUND: #E0E0E0; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+/* ---------- ������ʽ���� ---------- */
+select.BigSelect{ 
+COLOR: #000066; 
+BACKGROUND: #F8F8F8; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+/* ---------- ������ʽ���� ---------- */
+select.SmallSelect{ 
+COLOR: #000066; 
+BACKGROUND: #F8F8F8; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+select.BigStatic  { 
+COLOR: #000066; 
+BACKGROUND: #E0E0E0; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px;
+LINE-HEIGHT: normal}
+
+select.SmallStatic{ 
+COLOR: #000066; 
+BACKGROUND: #E0E0E0; 
+border:1 solid black; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal; 
+HEIGHT: 18px; 
+LINE-HEIGHT: normal}
+
+
+textarea.BigInput { 
+COLOR: #000066; 
+BACKGROUND: #F8F8F8; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double;
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal;
+LINE-HEIGHT: normal;}
+
+textarea.BigStatic{ 
+COLOR: #000066; 
+BACKGROUND: #E0E0E0; 
+border:1 solid black; 
+BORDER-BOTTOM:1px double; 
+FONT-SIZE: 9pt; 
+FONT-STYLE: normal; 
+FONT-VARIANT: normal; 
+FONT-WEIGHT: normal;
+LINE-HEIGHT: normal;}
+
+.TableControl{ 
+BACKGROUND: #D3E5FA;}
+
+.TableButton{ 
+BACKGROUND: #3a95c2;}
+
+/* ---------- ���ָ�����ʽ ---------- */
+.TableSeparator { 
+BACKGROUND: #3a95c2;
+color: #FFFFFF; 
+font-weight: bold }
+
+/* ---------- ��������ʽ ---------- */
+.TableHeader { 
+BACKGROUND: #D3E5FA; 
+color: #FFFFFF; 
+font-weight: bold; 
+background-image: url("./images/header_bg.gif") }
+
+/* ---------- ��������ʽ ���� ---------- */
+.TableHeader1 { 
+BACKGROUND: #D3E5FA; 
+background-image: url("./images/header_bg.gif");  
+CURSOR: hand; 
+COLOR: #ffffff;} /* ---------- ������ɫ ---------- */
+
+
+.TableContent{ 
+BACKGROUND: #E2E8FA;}
+
+.TableData   { 
+BACKGROUND: #FFFFFF; 
+FONT-SIZE: 10pt;}
+
+.TableLabel   { 
+BACKGROUND: #EFF7FF; 
+FONT-SIZE: 10pt;}
+
+.TableLabel1   { 
+BACKGROUND: #CCCCFF; 
+FONT-SIZE: 10pt;}
+
+.TableLine1  { 
+BACKGROUND: #F3F3F3;}
+
+.TableLine2  { 
+BACKGROUND: #FFFFFF;}
+
+
+
+/* ---------- ������ʽ���� ---------- */
+.deletebg {  
+font-family: "����"; 
+font-size: 12px; 
+border-color: black black #000000; 
+border-style: solid; 
+border-top-width: 0px; 
+border-right-width: 0px; 
+border-bottom-width: 0px; 
+border-left-width: 0px;
+text-align:center; }
+
+
+.querybg {  
+font-family: "����"; 
+font-size: 12px; 
+border-color: black black #000000; 
+border-style: solid; 
+border-top-width: 0px; 
+border-right-width: 0px; 
+border-bottom-width: 1px; 
+border-left-width: 0px; }
+
+
+.toolbutton { 
+BORDER-RIGHT: #104a7b 1px solid;    
+BORDER-TOP: #afc4d5 1px solid;    
+BACKGROUND: #d6e7ef;    
+BORDER-LEFT: #afc4d5 1px solid;    
+CURSOR: hand;   
+COLOR: #000066;    
+BORDER-BOTTOM: #104a7b 1px solid; 
+margin: 0pt; 
+width: 60pt;  
+HEIGHT: 18px;    
+FONT-SIZE: 10pt;    
+TEXT-DECORATION: none;
+background-image: url("/images/button_back.gif"); }
+
+
+-->  </style>  

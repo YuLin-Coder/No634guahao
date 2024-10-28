@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="guahao"
+  id="myeclipse.1385033422943"
+  context-root="/guahao"
+  j2ee-spec="5.0"
+  archive="guahao.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
